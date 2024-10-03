@@ -3,9 +3,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-image: url(./img/sfondo.png);
+  font-family: Poppins, Helvetica, sans-serif;
 }
 
-header {
+header,
+footer {
   text-align: center;
   background: rgb(46, 105, 132);
   background: linear-gradient(
@@ -17,6 +19,7 @@ header {
   margin-bottom: 1.2em;
   padding: 1em;
   box-shadow: 0px 5px 5px 0px rgba(94, 92, 94, 1);
+  margin-top: 1em;
 }
 
 h1 {
@@ -45,14 +48,18 @@ main {
   background-color: white;
   padding: 2em 1em;
   box-shadow: 0px 5px 5px 0px rgba(94, 92, 94, 1);
+  
 }
 
-p span{color: 
-    #ae6990;
-font-weight: bold;}
+main li{margin-bottom: 0.25em;}
+p span {
+  color: #ae6990;
+  font-weight: bold;
+}
 
 menu li {
   list-style-type: none;
+  margin-bottom: 0.25em;
 }
 
 li .fa-arrow-right {
@@ -63,6 +70,122 @@ li .fa-arrow-left {
   margin-left: 0.3em;
 }
 
-li span{background-color: rgb(241, 241, 241);
-border: solid 1px rgb(133, 132, 132);
-border-radius: 3px;}
+li span {
+  background-color: rgb(241, 241, 241);
+  border: solid 1px rgb(133, 132, 132);
+  border-radius: 3px;
+  
+}
+
+ul {
+  margin: 2em;
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 2em;
+}
+1em table {
+  width: 100%;
+  border-bottom: #4568c1 solid 2px;
+  height: 200px;
+  text-align: center;
+}
+caption {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2em;
+}
+
+thead {
+  background-color: #4568c1;
+  color: white;
+  height: 2em;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td,
+th {
+  padding: 1em;
+}
+
+iframe {
+  border-radius: 30px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.form {
+  background-color: #e1e2e3;
+  text-align: center;
+  padding: 1em;
+}
+
+.form h5 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.form p {
+  margin-bottom: 1em;
+}
+
+input {
+  border-bottom: dotted;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+button {
+  background-color: #4769c1;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  display: inline-block;
+}
+
+.articoli {
+  background-color: #e2e2e1;
+  margin-top: 1em;
+  text-align: center;
+  border: solid rgb(172, 172, 172) 1px;
+  padding-top:1em;
+  padding-bottom: 1em;
+}
+
+section h5{text-align: center;
+font-weight: bold;
+margin-top: 1em;}
+
+/* 
+footer{background-color: rgb(46, 105, 132);
+    color:white;} */
+
+
+    footer a{color: #a73baa;}
+    footer p{margin: 1em;}
+
+
+    .articoli p:first-child{text-decoration: underline;
+    color:#6ba6c6;
+text-align: left;
+margin-left:1em;
+margin-bottom: 0.5em;}
+
+.articoli p:nth-child(2){
+    text-align: left;
+    margin-left:1em;
+margin-bottom: 0.5em;
+}
+
+.articoli p:nth-child(3){
+    text-align: right;
+    margin-right:1em;
+margin-bottom: 0.5em;
+}
+
+.articoli i{margin-right: 0.25em;}
