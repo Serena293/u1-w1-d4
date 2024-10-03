@@ -125,23 +125,26 @@ iframe {
 
 .form {
   background-color: #e1e2e3;
-  text-align: center;
-  padding: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+  /* padding: 1em; */
 }
 
 .form h5 {
   font-weight: bold;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .form p {
   margin-bottom: 1em;
+  text-align: center;
 }
-label{display: inline-block;}
+
 input {
   border-bottom: dotted;
 display: inline-block;
-  margin-right: 0.5em;
+  margin-right: 0.1em;
 }
 button {display: inline-block;
   background-color: #4769c1;
