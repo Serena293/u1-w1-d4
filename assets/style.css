@@ -4,6 +4,8 @@ body {
   margin-right: auto;
   background-image: url(./img/sfondo.png);
   font-family: Poppins, Helvetica, sans-serif;
+  line-height: 1.5;
+;
 }
 
 header,
@@ -77,6 +79,7 @@ li span {
   
 }
 
+
 ul {
   margin: 2em;
   list-style-type: disc;
@@ -86,7 +89,7 @@ ol {
   list-style-type: decimal;
   margin: 2em;
 }
-1em table {
+ table {
   width: 100%;
   border-bottom: #4568c1 solid 2px;
   height: 200px;
@@ -134,18 +137,18 @@ iframe {
 .form p {
   margin-bottom: 1em;
 }
-
+label{display: inline-block;}
 input {
   border-bottom: dotted;
-  display: inline-block;
+display: inline-block;
   margin-right: 0.5em;
 }
-button {
+button {display: inline-block;
   background-color: #4769c1;
   color: white;
   border: none;
   padding: 0.5em;
-  display: inline-block;
+
 }
 
 .articoli {
